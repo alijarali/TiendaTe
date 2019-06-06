@@ -14,3 +14,21 @@ body{
 background-color: #F8F1DC;
 }
 
+#imgLogo{
+	width: 30%;
+}
+
+#imgNombreClub{
+	width:70%;
+	 height:300;
+}
+
+#titulo{
+	font-family:'Bodoni MT Condensed', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #FA8072;
+	font-style: oblique;
+	
+	
+}
