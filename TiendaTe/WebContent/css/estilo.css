@@ -1,5 +1,16 @@
 @charset "ISO-8859-1";
 
+#header {
+  background-position:  center center;
+  background-repeat: no-repeat;
+  background-image: url();
+  height: 188px;
+}
+
+
+
+
 body{
 background-color: #F8F1DC;
 }
+

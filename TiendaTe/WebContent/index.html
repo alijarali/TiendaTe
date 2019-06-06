@@ -3,55 +3,72 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>El club de las teteras</title>
-<link rel="shortcut icon" type="image/png" href="Images/favicon.jpg"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="Images/favicon.jpg" />
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/estilo.css" type="text/css">
 </head>
 
 <body>
-<div>
-
-<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
-  <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
-  <a href="#" class="w3-bar-item w3-button">Tienda</a>
-  <a href="#" class="w3-bar-item w3-button">Historia del té</a>
-  <a href="#" class="w3-bar-item w3-button">Curso Kombucha</a>
-  <a href="#" class="w3-bar-item w3-button">Acerca de</a>
-  <a href="#" class="w3-bar-item w3-button">Log in</a>
-</div>
+	<div>
 
 
-<div>
-   <h1><img src="Images/IMG03.jpg"></h1>
-  </div>
-   <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
-  <div>
-</div>
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/sVlEkm6tm2s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="w3-container">
-<p>In this example, we demonstrate how to use two side navigations.</p>
-<p>We have created two "menu" buttons: one to open the side navigation from the left and one to open it from the right.</p>
-</div>
-     
-<script>
-function openLeftMenu() {
-  document.getElementById("leftMenu").style.display = "block";
-}
+		<h1 id="header">
+			<div class="w3-panel">
+				<img src="Images/IMG01S.png" align="left" class="w3-circle"
+					 style="width: 20%"> <img src="Images/IMG03.jpg"
+					align="right" width="80%" height="300" />
+			</div>
+		</h1>
 
-function closeLeftMenu() {
-  document.getElementById("leftMenu").style.display = "none";
-}
+		<div>
+			<button class="w3-button w3-teal w3-xlarge w3-left"
+				onclick="openLeftMenu()">&#9776;</button>
+		</div>
 
-function openRightMenu() {
-  document.getElementById("rightMenu").style.display = "block";
-}
+		<div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
+			style="display: none" id="leftMenu">
+			<button onclick="closeLeftMenu()"
+				class="w3-bar-item w3-button w3-large">Close &times;</button>
+			<a href="#" class="w3-bar-item w3-button">Tienda</a> <a href="#"
+				class="w3-bar-item w3-button">Historia del té</a> <a href="#"
+				class="w3-bar-item w3-button">Curso Kombucha</a> <a href="#"
+				class="w3-bar-item w3-button">Acerca de</a> <a href="#"
+				class="w3-bar-item w3-button">Log in</a>
+		</div>
 
-function closeRightMenu() {
-  document.getElementById("rightMenu").style.display = "none";
-}
-</script>
- 
-</div>
+		<div class="w3-container">
+			<iframe width="30%" height="315"
+				src="https://www.youtube.com/embed/sVlEkm6tm2s" frameborder="0"
+				allow="accelerometer; 
+autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen align="right"></iframe>
+			<p>In this example, we demonstrate how to use two side
+				navigations.</p>
+			<p>We have created two "menu" buttons: one to open the side
+				navigation from the left and one to open it from the right.</p>
+		</div>
+
+		<script>
+			function openLeftMenu() {
+				document.getElementById("leftMenu").style.display = "block";
+			}
+
+			function closeLeftMenu() {
+				document.getElementById("leftMenu").style.display = "none";
+			}
+
+			function openRightMenu() {
+				document.getElementById("rightMenu").style.display = "block";
+			}
+
+			function closeRightMenu() {
+				document.getElementById("rightMenu").style.display = "none";
+			}
+		</script>
+
+	</div>
 </body>
 </html>
