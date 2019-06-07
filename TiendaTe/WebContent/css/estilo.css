@@ -31,6 +31,9 @@ body {
 	width: 5%;
 }
 
+#accede{
+	width: 5%
+}
 .header {
 	width: 100%;
 	height: 20%;
@@ -68,4 +71,8 @@ body {
 	width: 50%;
 	height: 100%;
 	margin: 1%;
+}
+
+.w3-teal, .w3-hover-teal:hover {
+	background-color: #FA8072!important;
 }
