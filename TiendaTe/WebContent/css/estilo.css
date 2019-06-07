@@ -63,17 +63,23 @@ height: 20%;
 
 }
 
-.aside {
+.asideDer {
+
+width: 30%;
+height: 100%;
+margin: 1%;
+
+}
+.asideIzq {
 
 width: 20%;
 height: 100%;
 margin: 1%;
 
 }
-
 .section {
 
-width: 60%;
+width: 50%;
 height: 100%;
 margin: 1%;
 
