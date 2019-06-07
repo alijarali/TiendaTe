@@ -2,54 +2,71 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Tienda</title>
-<link rel="shortcut icon" type="image/png" href="Images/favicon.jpg" />
+<title>El club de las teteras</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="css/estilo.css" type="text/css">
-	<script src="js/functions.js"></script>
+<link rel="shortcut icon" type="image/png" href="Images/favicon.jpg" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/estilo.css" type="text/css">
+<script src="js/functions.js"></script>
 </head>
+
 <body>
-<header>
-	
-		<div class="w3-panel" id="header">
-			<a title="logo" href="http://localhost/TiendaTe/index.html">
-			<img id="imgLogo" src="Images/IMG01S.png" align="left" class="w3-circle" ></a>
+<!-- Aqui empieza la cabecera -->
+	<header class="header">
+
+		<div >
+			<a title="logo" href="http://localhost/TiendaTe/index.html"> <img
+				id="imgLogo" src="Images/IMG01S.png" align="left" class="w3-circle"></a>
 			<img id="imgNombreClub" src="Images/IMG03B.png" align="right" />
 		</div>
+
+	</header>
+
+<!-- Comienza el contenido -->
+	<div class="contenido">
 	
+	<!-- Este aside es el lado izquierdo de la pagina, o sea el boton menu -->
+		<div class="asideIzq" >
+		
+			<div>
+				<button id="botonMenu" class="w3-button w3-teal w3-xlarge w3-left"
+					onclick="openLeftMenu()">&#9776;</button>
+			</div>
 
 
-	<div>
-		<button id="botonMenu" class="w3-button w3-teal w3-xlarge w3-left"
-			onclick="openLeftMenu()">&#9776;</button>
+			<div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
+				style="display: none" id="leftMenu">
+				<button onclick="closeLeftMenu()"
+					class="w3-bar-item w3-button w3-large">Close &times;</button>
+				<a href="tienda.html" class="w3-bar-item w3-button">Tienda</a> <a
+					href="historia.html" class="w3-bar-item w3-button">Historia y tipos de
+					tés</a> <a href="curso.html" class="w3-bar-item w3-button">Curso
+					Kombucha</a> <a href="acercade.html" class="w3-bar-item w3-button">Acerca
+					de</a> <a href="login.html" class="w3-bar-item w3-button">Log in</a>
+			</div>
+		</div>
+
+
+<!-- Aqui va el contenido en si, lo que seria la pagina -->
+			
+		
+		<!-- Esto es el lado derecho, donde pondremos el carrito y buscar -->
+		<div class="asideDer" > 
+		
 	</div>
-
-	<div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
-		style="display: none" id="leftMenu">
-		<button onclick="closeLeftMenu()"
-			class="w3-bar-item w3-button w3-large">Close &times;</button>
-		<a href="tienda.html" class="w3-bar-item w3-button">Tienda</a> 
-		<a href="historia.html" class="w3-bar-item w3-button">Historia del té</a> <a href="curso.html"
-			class="w3-bar-item w3-button">Curso Kombucha</a> <a href="acercade.html"
-			class="w3-bar-item w3-button">Acerca de</a> <a href="login.html"
-			class="w3-bar-item w3-button">Log in</a>
-	</div>
-	
-</header>
-
-<h1 id="titulo">Curso</h1>
-
-<footer class="footer">
+<h1 id="titulo">Curso de Kombucha</h1>
+	<!-- el pie de pagina -->
+	<footer class="footer">
 		<div align="center">
-			<a href="https://www.komvida.com/" target="_blank" > <img id="fotopie"
-				src="Images/IMG14B.png"></a> <a
-				href="https://www.captainkombucha.com/" target="_blank" > <img id="fotopie"
-				src="Images/IMG15.png"></a> <a href="https://es.iherb.com/" target="_blank"> <img
-				id="fotopie" src="Images/IMG16.png"></a> <a
-				href="https://www.teashop.com/" target="_blank"> <img id="fotopie"
-				src="Images/IMG17B.jpg"></a>
+			<a href="https://www.komvida.com/" target="_blank"> <img
+				id="fotopie" src="Images/IMG14B.png"></a> <a
+				href="https://www.captainkombucha.com/" target="_blank"> <img
+				id="fotopie" src="Images/IMG15.png"></a> <a
+				href="https://es.iherb.com/" target="_blank"> <img id="fotopie"
+				src="Images/IMG16.png"></a> <a href="https://www.teashop.com/"
+				target="_blank"> <img id="fotopie" src="Images/IMG17B.jpg"></a>
 		</div>
 	</footer>
+
 </body>
 </html>
