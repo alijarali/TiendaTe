@@ -37,4 +37,29 @@ background-color: #F8F1DC;
 	
 }
 
+.box {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+.header{
+ 
+width: 100%;
+height: 20%;
+
+}
+
+.contenido{
+ 
+width: 100%;
+height: 60%;
+margin: 1%;
+}
+
+.footer{
+ 
+width: 100%;
+height: 20%;
+
+}
 
