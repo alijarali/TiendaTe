@@ -1,70 +1,71 @@
 @charset "ISO-8859-1";
 
 #header {
-  background-position:  center center;
-  background-repeat: no-repeat;
-  background-image: url();
-  height: 188px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url();
+	height: 188px;
 }
 
-body{
-background-color: #F8F1DC;
+body {
+	background-color: #F8F1DC;
 }
 
-#imgLogo{
- width: 30%;
+#imgLogo {
+	width: 30%;
 }
 
-#imgNombreClub{
- width:70%;
+#imgNombreClub {
+	width: 70%;
 }
 
-#titulo{
- font-family:'Bodoni MT Condensed', sans-serif;
- font-size: 60px;
- font-weight: bold;
- color: #FA8072;
- font-style: oblique;
+#titulo {
+	font-family: 'Bodoni MT Condensed', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #FA8072;
+	font-style: oblique;
 }
 
-#fotopie{
- width: 5%;
+#fotopie {
+	width: 5%;
 }
 
-.header{
-
-width: 100%;
-height: 20%;
+.header {
+	width: 100%;
+	height: 20%;
 }
 
-.contenido{
-
-width: 100%;
-height: 60%;
-margin: 1%;
+.contenido {
+	float: right;
+	width: 100%;
+	height: 60%;
+	margin: 1%;
 }
 
-.footer{
-width: 100%;
-height: 20%;
+.footer {
+	float: left;
+	width: 100%;
+	height: 20%;
 }
 
 .asideDer {
-
-width: 30%;
-height: 100%;
-margin: 1%;
+	float: right;
+	width: 30%;
+	height: 100%;
+	margin: 1%;
 }
 
 .asideIzq {
-
-width: 20%;
-height: 100%;
-margin: 1%;
+	float: left;
+	width: 20%;
+	height: 100%;
+	margin: 1%;
 }
 
 .section {
-width: 50%;
-height: 100%;
-margin: 1%;
+	float: left;
+	width: 50%;
+	height: 100%;
+	margin: 1%;
 }
