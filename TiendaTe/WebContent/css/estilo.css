@@ -10,6 +10,9 @@
 body {
 	background-color: #F8F1DC;
 }
+form{
+	text-align:center;
+}
 
 #imgLogo {
 	width: 30%;
@@ -71,6 +74,10 @@ body {
 	width: 50%;
 	height: 100%;
 	margin: 1%;
+}
+
+.centrado{
+	text-align:center;
 }
 
 .w3-teal, .w3-hover-teal:hover {
