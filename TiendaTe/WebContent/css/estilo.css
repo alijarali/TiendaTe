@@ -23,11 +23,46 @@ form{
 }
 
 #titulo {
-	font-family: 'Bodoni MT Condensed', sans-serif;
+	font-family: 'Courier New', sans-serif;
 	font-size: 60px;
 	font-weight: bold;
 	color: #FA8072;
 	font-style: oblique;
+	text-align: center;
+	text-shadow: 3px 2px grey;
+}
+
+h2{
+	font-family: 'Courier New', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	color: #FA8072;
+	font-style: oblique;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	  
+}
+
+h3{
+	font-family: 'Courier New', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFA07A;
+	font-style: oblique;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: 'Courier New', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #66605F;
+	font-style: normal;
+	text-align: left;
+	text-align: justify;
+	
 }
 
 #fotopie {
