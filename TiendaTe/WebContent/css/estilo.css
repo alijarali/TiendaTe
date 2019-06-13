@@ -83,6 +83,9 @@ p{
 	
 }
 
+#infusion{
+	width:200px;
+}
 #fotopie {
 	width: 5%;
 }
@@ -108,7 +111,7 @@ p{
 	height: 20%;
 }
 
-.asideDer {
+/* .asideDer {
 	float: right;
 	width: 10%;
 	height: 100%;
@@ -120,7 +123,7 @@ p{
 	width: 10%;
 	height: 100%;
 	margin: 1%;
-}
+} */
 
 .section {
 	float: left;
@@ -149,6 +152,22 @@ ul.a {
   position: absolute;
   right: 0px;
   width: 200px;
+ 
+  padding: 20px;
+}
+
+.derecha {
+  position: absolute;
+  right: 0px;
+  width: 30%;
+ 
+  padding: 20px;
+}
+
+.left {
+  position: absolute;
+ leftt: 0px;
+  width: 30%;
  
   padding: 20px;
 }
