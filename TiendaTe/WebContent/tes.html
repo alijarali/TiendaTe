@@ -35,29 +35,47 @@
    <a href="login.html" class="w3-bar-item w3-button">Log in</a>
 </div>
 <!-- Aqui va el contenido en si, lo que seria la pagina -->
+<div>
 			<h1 id="titulo">Tipos de tés</h1>	
-
-	
-		<div class="center" >
-			<h2>Té verde</h2>
-			<a title="teverde" href="http://localhost/TiendaTe/teverde.html"><img src="Images/teverde.jpg" ></a>
-			
-			
-			<h2>Té Rojo</h2>
-			<a title="terojo" href="http://localhost/TiendaTe/terojo.html"><img src="Images/terojo.png"></a>
-			
-			
-			<h2>Té negro</h2>
-			<a title="tenegro" href="http://localhost/TiendaTe/tenegro.html"><img src="Images/tenegro.jpg"></a>
-			
-	
-
 </div>
+	
+	
+	<h2 class="w3-center">Conoce un poco más de tus tés favoritos</h2>
+
+<div class="w3-content w3-display-container">
+<a href="teverde.html"><img class="mySlides" src="Images/teverde.jpg" style="width:100%"></a>
+<a href="tenegro.html"><img class="mySlides" src="Images/tenegro.jpg" style="width:100%"></a>
+<a href="terojo.html"><img class="mySlides" src="Images/terojo.png" style="width:100%"></a>
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 		
-		<!-- Esto es el lado derecho, donde pondremos el carrito y buscar -->
-		<div class="asideDer" > 
-		
-	</div>
+	
 		</div>	
 	<!-- el pie de pagina -->
 	<footer class="footer">
