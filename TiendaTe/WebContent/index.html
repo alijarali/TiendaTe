@@ -18,11 +18,10 @@
 <!-- Aqui empieza la cabecera -->
 	<header class="header">
 
-		<div >
-			<a title="logo" href="http://localhost/TiendaTe/index.html"> <img
-				id="imgLogo" src="Images/IMG01S.png" align="left" class="w3-circle"></a>
-			<img id="imgNombreClub" src="Images/IMG03B.png" align="right" /> <!-- yo quitaría esto y pondría el logo con el nombre en el centro -->
-		</div>
+		<div class="center">
+			<a title="encabezado" id="cabecera" href="http://localhost/TiendaTe/index.html"> <img
+				src="Images/encabezado.png"></a>
+	</div>
 
 	</header>
 
@@ -30,33 +29,21 @@
 	<div class="contenido">
 	
 	<!-- Este aside es el lado izquierdo de la pagina, o sea el boton menu -->
-		<div class="asideIzq" >
 		
-			<div>
-				<button id="botonMenu" class="w3-button w3-teal w3-xlarge w3-left"
-					onclick="openLeftMenu()">&#9776;</button>
-			</div>
-
-
-			<div class="w3-sidebar w3-bar-block w3-card w3-animate-left"
-				style="display: none" id="leftMenu">
-				<button onclick="closeLeftMenu()"
-					class="w3-bar-item w3-button w3-large">Close &times;</button>
-					<a href="historia.html" class="w3-bar-item w3-button">Historia del té</a> 
-					<a href="tes.html" class="w3-bar-item w3-button">Tipos de tés</a> 
-					<a href="infusiones.html" class="w3-bar-item w3-button">Infusiones</a> 
-					<a href="acercade.html" class="w3-bar-item w3-button">Acerca de</a> 
-					<a href="login.html" class="w3-bar-item w3-button">Log in</a>
-			</div>
-		</div>
-
-
+<div class="w3-bar w3-border w3-card-4 w3-light-grey">
+  <a href="http://localhost/TiendaTe/index.html" class="w3-bar-item w3-button">Home</a>
+  <a href="historia.html"class="w3-bar-item w3-button">Historia del té</a>
+  <a href="tes.html"class="w3-bar-item w3-button">Tipos de tés</a>
+  <a href="infusiones.html" class="w3-bar-item w3-button">Infusiones</a>
+  <a href="acercade.html" class="w3-bar-item w3-button">Contacta con nosotras</a>
+   <a href="login.html" class="w3-bar-item w3-button">Log in</a>
+</div>
 <!-- Aqui va el contenido en si, lo que seria la pagina -->
-		<div class="section" >
+		<div class="center" >
 				
 	<h2>Bienvenidos</h2>
-			<p>Si te gusta el té, estás en el sitio indicado. Aquí encontrarás información sobre muchos tipos de tés e infusiones que, quizás, no conocías
-			hasta ahora.</p>
+			<h3>Si te gusta el té, estás en el sitio indicado. Aquí encontrarás información sobre muchos tipos de tés e infusiones que, quizás, no conocías
+			hasta ahora.</h3>
 		<div clas="center">
 		<h3>Vídeo recomendado para el verano</h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kxFNJgVOmWA" frameborder="0" 
@@ -80,7 +67,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 <!-- Esto es el lado derecho, donde pondremos el carrito y buscar -->
 		<div > 
 		<div class="right">
-		<a  href="login.html" align="right"> <img style="width: 12%" id="accede"
+		<a  href="login.html" > <img style="width: %" id="accede"
 				 src="Images/IMG09.png" >Regístrate</a>
 			</div>	 
 			<!-- <div class="w3-container">
