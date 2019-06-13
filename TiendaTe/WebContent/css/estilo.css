@@ -21,8 +21,55 @@ form{
   padding: 20px;
 }
 
-	
+#menta{
+	display:block;
+	margin:auto;
+	width:50%;
 }
+
+#anis{
+	display:block;
+	margin:auto;
+	width:50%;
+}
+	
+#canela{
+	display:block;
+	margin:auto;
+	width:50%;
+}
+#manzanilla{
+	display:block;
+	margin:auto;
+	width:50%;
+}
+#melisa{
+	display:block;
+	margin:auto;
+	width:50%;
+}
+#hierbaluisa{
+	display:block;
+	margin:auto;
+	width:50%;
+}	
+#negro{
+	display:block;
+	margin:auto;
+}	
+#rojo{
+	display:block;
+	margin:auto;
+}	
+#verde{
+	display:block;
+	margin:auto;
+}	
+#historiate{
+	display:block;
+	margin:auto;
+}	
+
 
 #titulo {
 	font-family: 'Courier New', sans-serif;
