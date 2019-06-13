@@ -14,9 +14,13 @@ form{
 	text-align:center;
 }
 
-#cabecera{
-	width: 100%;
-	height:100%;
+.cabecera{
+	  margin: auto;
+  width: 100%;
+ 
+  padding: 20px;
+}
+
 	
 }
 
@@ -51,7 +55,14 @@ h3{
 	text-align: left;
 	text-transform: uppercase;
 }
-
+ h4{font-family: 'Courier New', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #66605F;
+	font-style: oblique;
+	text-align: left;
+	
+ }
 p{
 	font-family: 'Courier New', sans-serif;
 	font-size: 15px;
@@ -139,3 +150,6 @@ ul.a {
 .w3-teal, .w3-hover-teal:hover {
 	background-color: #FA8072!important;
 }
+
+.w3-light-grey{background-color: #FFA07A !important;
+color:white!important;}
