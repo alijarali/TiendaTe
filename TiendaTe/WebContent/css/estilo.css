@@ -21,6 +21,14 @@ form{
   padding: 20px;
 }
 
+#video{
+	display:block;
+	margin:auto;
+}
+#cuadrotexto{
+	font-family: 'Courier New', sans-serif;
+}
+
 #menta{
 	display:block;
 	margin:auto;
@@ -137,11 +145,16 @@ p{
 	width: 5%;
 	padding: 1 em;
 }
+#fotopie1 {
+	width: 5.2%;
+	padding: 1 em;
+}
 
 
 #fotored {
 	width: 10%;
 	padding:0.05em;
+	
 }
 #accede{
 	width: 20%
