@@ -81,7 +81,7 @@ p{
 	float: right;
 	width: 100%;
 	height: 60%;
-	margin: 1%;
+	margin: auto;
 }
 
 .footer {
@@ -92,25 +92,40 @@ p{
 
 .asideDer {
 	float: right;
-	width: 30%;
+	width: 10%;
 	height: 100%;
 	margin: 1%;
 }
 
 .asideIzq {
 	float: left;
-	width: 20%;
+	width: 10%;
 	height: 100%;
 	margin: 1%;
 }
 
 .section {
 	float: left;
-	width: 50%;
+	width: 80%;
 	height: 100%;
 	margin: 1%;
 }
+.center {
+  margin: auto;
+  width: 60%;
+ 
+  padding: 20px;
+}
 
+
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 200px;
+ 
+  padding: 20px;
+}
 .centrado{
 	text-align:center;
 }
