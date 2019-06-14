@@ -5,6 +5,9 @@
 	background-repeat: no-repeat;
 	background-image: url();
 	height: 188px;
+	display:block;
+	margin:auto;
+	witdth:100%;
 }
 
 body {
@@ -19,6 +22,11 @@ form{
   width: 100%;
  
   padding: 20px;
+}
+#cabecera{
+	display:block;
+	margin:auto;
+	witdth:100%;
 }
 
 #video{
