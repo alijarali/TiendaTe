@@ -91,15 +91,7 @@ max-height:100%;
 }	
 
 
-#titulo {
-	font-family: 'Courier New', sans-serif;
-	font-size: 60px;
-	font-weight: bold;
-	color: #FA8072;
-	font-style: oblique;
-	text-align: center;
-	text-shadow: 3px 2px grey;
-}
+
 h1{font-family: 'Courier New', sans-serif;
 	font-size: 60px;
 	font-weight: bold;
@@ -189,20 +181,6 @@ footer {
 	height: 20%;
 }
 
-/* .asideDer {
-	float: right;
-	width: 10%;
-	height: 100%;
-	margin: 1%;
-}
-
-.asideIzq {
-	float: left;
-	width: 10%;
-	height: 100%;
-	margin: 1%;
-} */
-
 .section {
 	float: left;
 	width: 80%;
@@ -268,4 +246,5 @@ textarea {
 
 .w3-light-grey{background-color: #FFA07A !important;
 color:white!important;
-font-family: 'Courier New', sans-serif;}
+font-family: 'Courier New', sans-serif;
+}
